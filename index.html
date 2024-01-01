@@ -1,6 +1,6 @@
 <!DOCTYPE html><!-- This web page is copied by "https://bazhan.wang" --><!-- This web page is copied by "https://bazhan.wang" --><html lang="en"><head><meta name="360-analysis-id" content="302u1c2z312u2q"><!--!‭‪‪‬‏‪‫‬‪‬‏‏‭‪‫‬‏‪‬‎‬--><meta charset="utf-8"><!--!‭‪‪‬‏‪‫‬‪‬‏‏‭‪‫‬‏‪‬‎‬--><meta name="360-analysis-id" content="2y352v1d1h361c2v"><!--!‭‪‪‬‏‪‫‬‪‬‏‏‭‪‫‬‏‪‬‎‬--><!--!‬‏‎‭‪‏‬‏‫‫‬‫‫‬‏‭‫‪‫‬‪‬‏‫--><!--!‬‏‎‭‪‏‬‏‫‫‬‫‫‬‏‭‫‪‫‬‪‬‏‫-->
     
-    <title>💥新年快乐🎆</title>
+    <title>新年快乐！</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><!--!‭‪‪‬‏‪‫‬‪‬‏‏‭‪‫‬‏‪‬‎‬--><!--!‬‏‎‭‪‏‬‏‫‫‬‫‫‬‏‭‫‪‫‬‪‬‏‫-->
     <meta name="mobile-web-app-capable" content="yes"><!--!‭‪‪‬‏‪‫‬‪‬‏‏‭‪‫‬‏‪‬‎‬--><!--!‬‏‎‭‪‏‬‏‫‫‬‫‫‬‏‭‫‪‫‬‪‬‏‫-->
@@ -563,7 +563,7 @@
     <div id="wish_text"></div>
 
     <div id="yhBtn" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:999;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff ; font-size:15px">
-        <p>💥点爆</p>
+        <p>点击此处放烟花！💥</p>
         <img style="width:64px;margin-bottom:24px " src="img/060990dac854444ab7a927b5b3311fe4~tplv-tt-shrink_640_0.png">
 
     </div>
@@ -1069,14 +1069,8 @@
     <script>
         function wishFun() {
             const wish = [
-				 "我的公主",
                 "2024新年快乐",
-				 "Happy New Year",
-				 "但愿这个冬天",
-				 "爱与好运同在",    
-                "愉悦龙门",
-                "齐乐龙龙",
-				 "我们终会光芒万丈"
+			"Happy New Year！",
             ]
 
             const text = document.getElementById('wish_text');
@@ -1143,14 +1137,14 @@
         }
         function start() {
             const text = [
-				'唯愿烟花像星辰，祝你所愿皆成真',
-				 '我与旧事归于尽，来年依旧桃花开',
-				 '山一程水一程，总会有人与你一道过一程',
-				 '我会与你一道过一程',
-				 '唯愿年年岁岁常康健，岁岁年年常相见',
-				 '唯愿星河绚烂，所见即所念',
-                'ʸᵒᵘ ᵃʳᵉ ᵗʰᵉ ᵒⁿˡʸ ᵇᵉˢᵗ ᶠᵒʳ ᵐᵉ.',
-                "于我而言，你是最好且是唯一❤️",
+				'岁末已至，新年开启。',
+				 '愿你年年岁岁常欢愉，岁岁年年常喜乐。',
+				 '烟火向星辰，银河有迹循。',
+				 '2024年到了，相信一切都会渐入佳境。',
+				 '愿你：',
+				 '知足且上进，不念过往，不惧将来。',
+                'Happy new year!',
+                "新年快乐！💥",
                 
             ]
             let str = text.join('<br><br>')
@@ -1160,7 +1154,7 @@
             let timer = setInterval(() => {
                 if (str_.length < str.length) {
                     str_ += str[i++]
-                    content.innerHTML = '<p>' + str_ + '<span class="xx" style="opacity: 1;    color: red;">❤</span></p>'                        //打印时加光标
+                    content.innerHTML = '<p>' + str_ + '<span class="xx" style="opacity: 1;    color: red;">💥</span></p>'                        //打印时加光标
                 } else {
                     clearInterval(timer)
                     content.innerHTML = '<p>' + str_ + '</p>'
